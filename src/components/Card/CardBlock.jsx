@@ -38,10 +38,10 @@ const infoPanel = () => {
 
 return (<div className="Card_block">
     {infoPanel()}
-        <Card cardId={"1"} select={[selected, setSelected]} color={"red"}/>
+        <Card cardId={"1"} select={[selected, setSelected]} color={"orange"}/>
         <Card cardId={"2"} select={[selected, setSelected]} color={"blue"}/>
         <Card cardId={"3"} select={[selected, setSelected]} color={"black"}/>
-        <Card cardId={"4"} select={[selected, setSelected]} color={"white"}/>
+        <Card cardId={"4"} select={[selected, setSelected]} color={"yellow"}/>
         <Card cardId={"5"} select={[selected, setSelected]} color={"green"}/>
         <Card cardId={"6"} select={[selected, setSelected]} color={"blue"}/>
 </div>)
