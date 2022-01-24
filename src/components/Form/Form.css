@@ -1,0 +1,75 @@
+.Form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+.FormItem {
+    padding: 5px 0;
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+    width: 400px;
+}
+
+.FormItem > label {
+    padding: 3px 10px;
+    height: 25px;
+}
+
+#choiceGender {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 4px;
+}
+
+.FormItem > input {
+    width: 300px;
+    height: 20px;
+    font-size: 16px;
+}
+
+.FormItem > select {
+    height: 26px;
+    width: 200px;
+    padding-left: 10px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.Submit {
+    width: 80px;
+    height: 26px;
+    padding-top: 5px;
+    font-size: 16px;
+    margin-right: 20px;
+    background-color: #1890FF;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.Log {
+    width: 250px;
+    height: 237px; 
+    overflow: scroll;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+.Log > p {
+    margin: 5px;
+}
